@@ -19,8 +19,8 @@ const App = () => {
     setAuthenticated(false);
   };
   const handleRegister = (user) => {
-    setAuthenticated(true);
-    setUsername(user);
+    alert("user successfully registered!");
+
   };
   return (
     <div>

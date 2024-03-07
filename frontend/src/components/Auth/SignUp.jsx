@@ -21,7 +21,7 @@ const SignUp = ({ onRegister }) => {
       const updatedUsers = [...storedUsers, newUser];
 
       localStorage.setItem("users", JSON.stringify(updatedUsers));
-      onRegister(username);
+      onRegister();
     }
   };
 
