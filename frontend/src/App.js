@@ -19,6 +19,8 @@ const App = () => {
     setAuthenticated(false);
   };
   const handleRegister = (user) => {
+    setAuthenticated(true);
+    setUsername(user);
     alert(`Registration successful! Welcome, ${user}!`);
   };
 
