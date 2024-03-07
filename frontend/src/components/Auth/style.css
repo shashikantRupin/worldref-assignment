@@ -57,3 +57,8 @@ p {
       text-decoration: underline;
       cursor: pointer;
 }
+.login-link {
+      color: #3498db;
+      text-decoration: underline;
+      cursor: pointer;
+}
