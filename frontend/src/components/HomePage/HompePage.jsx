@@ -22,8 +22,8 @@ const HomePage = ({ isAuthenticated, onLogout }) => {
 
   return (
     <div>
-      <h1 style={{textAlign:"center"}}>Welcome to the Home Page</h1>
-       <Card isAuthenticated={isAuthenticated}/>
+      <h1 style={{ textAlign: "center" }}>Discover the Wonders of India</h1>
+      <Card isAuthenticated={isAuthenticated} />
     </div>
   );
 };
