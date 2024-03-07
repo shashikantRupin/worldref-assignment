@@ -17,10 +17,6 @@ Welcome to the official repository of Shashikant Rupin. This React application s
 - **Route:** /register
 - **Description:** The register route enables new users to create an account within the application. It typically includes a form where users can provide their information to register.
 
-## Screenshots
-
-Include any relevant screenshots to showcase the UI of your application. For example:
-
 
 ## Usage
 
@@ -28,11 +24,11 @@ To start the development server and run the application, follow these steps:
 
 1. Install dependencies:
 
-```bash
+
 npm install
 
-2. start react App:
 
+2. start react app:
 ```bash
 npm run start
 
