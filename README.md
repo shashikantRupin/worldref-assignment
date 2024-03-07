@@ -1,7 +1,7 @@
 # React-UI
 ![Homepage Screenshot](./image.png)
 
-Welcome to the official repository of [Shashikant Rupin]. This React application serves various purposes, including providing a homepage, user authentication through the login route, and allowing new users to register via the register route.
+Welcome to the official repository of Shashikant Rupin. This React application serves various purposes, including providing a homepage, user authentication through the login route, and allowing new users to register via the register route.
 
 ## Routes
 
@@ -31,4 +31,9 @@ To start the development server and run the application, follow these steps:
 ```bash
 npm install
 
-2:npm run start
+2. start react App:
+
+```bash
+npm run start
+
+ 
