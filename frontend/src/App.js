@@ -19,9 +19,9 @@ const App = () => {
     setAuthenticated(false);
   };
   const handleRegister = (user) => {
-    alert("user successfully registered!");
-
+    alert(`Registration successful! Welcome, ${user}!`);
   };
+
   return (
     <div>
       <Navbar

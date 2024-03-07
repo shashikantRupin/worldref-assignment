@@ -19,9 +19,11 @@ const SignUp = ({ onRegister }) => {
     } else {
       const newUser = { username, password };
       const updatedUsers = [...storedUsers, newUser];
-
+      
       localStorage.setItem("users", JSON.stringify(updatedUsers));
-      onRegister();
+      onRegister(username);
+      setUsername("");
+      setPassword("");
     }
   };
 
