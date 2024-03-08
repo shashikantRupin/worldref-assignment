@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import "./App.css";
 import { Route, Navigate, Routes } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import HomePage from "./components/HomePage/HompePage";
 import Login from "./components/Auth/Login";
 import SignUp from "./components/Auth/SignUp";
 import Navbar from "./components/Navbar/Navbar";
+import "./App.css"
 
 const App = () => {
   const [isAuthenticated, setAuthenticated] = useState(false);
@@ -18,10 +20,13 @@ const App = () => {
   const handleLogout = () => {
     setAuthenticated(false);
   };
+
   const handleRegister = (user) => {
     setAuthenticated(true);
     setUsername(user);
-    alert(`Registration successful! Welcome, ${user}!`);
+
+    // Use toast.success for a success message
+    toast.success(`Registration successful! Welcome, ${user}!`);
   };
 
   return (
@@ -62,6 +67,9 @@ const App = () => {
           }
         />
       </Routes>
+
+      {/* ToastContainer is the component where toast messages will be displayed */}
+      <ToastContainer />
     </div>
   );
 };
