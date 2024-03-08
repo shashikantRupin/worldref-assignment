@@ -17,13 +17,18 @@ Welcome to the official repository of Shashikant Rupin. This React application s
 - **Route:** /register
 - **Description:** The register route enables new users to create an account within the application. It typically includes a form where users can provide their information to register.
 
+# Project Title
+
+Brief description of your project.
+
 ## Tech Stack
- 
+
 This project is built using the following technologies:
 
 - **React**: A JavaScript library for building user interfaces.
 - **Plain CSS**: Cascading Style Sheets for styling the components.
 - **Local Storage**: A web storage solution for persisting data locally in the user's browser.
+- **react-toastify**: A library for displaying toast notifications in React applications. Used for providing feedback to the user when actions like successful login occur.
 
 
 ## Usage
