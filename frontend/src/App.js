@@ -15,6 +15,7 @@ const App = () => {
   const handleLogin = (user) => {
     setAuthenticated(true);
     setUsername(user);
+    toast.success(`Login successful! Welcome, ${user}!`);
   };
 
   const handleLogout = () => {
