@@ -90,3 +90,17 @@ button {
   color: #fff;
 }
 
+/* Logout toast styling */
+.Toastify__toast--logout {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.Toastify__toast--logout .Toastify__toast-body {
+  display: flex;
+  align-items: center;
+}
+
+.Toastify__toast--logout svg {
+  margin-right: 10px;
+}

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Route, Navigate, Routes } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
+import { FaSignOutAlt } from "react-icons/fa";
 import "react-toastify/dist/ReactToastify.css";
 import HomePage from "./components/HomePage/HompePage";
 import Login from "./components/Auth/Login";
@@ -20,6 +21,11 @@ const App = () => {
 
   const handleLogout = () => {
     setAuthenticated(false);
+    toast.info(`Logout successful! Goodbye, ${username}!`, {
+      icon: <FaSignOutAlt />, // Use the sign-out icon
+      className: "logout-toast", 
+    });
+    setUsername(""); 
   };
 
   const handleRegister = (user) => {
