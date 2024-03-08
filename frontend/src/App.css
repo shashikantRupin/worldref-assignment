@@ -81,8 +81,8 @@ button {
 }
 
 .Toastify__toast--success {
-  background-color: black;
-  color: #fff;
+  background-color: white;
+  color: black;
 }
 
 .Toastify__toast--error {
