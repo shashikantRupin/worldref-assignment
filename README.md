@@ -21,9 +21,6 @@ Welcome to the official repository of Shashikant Rupin. This React application s
 - **Route:** /register
 - **Description:** The register route enables new users to create an account within the application. It typically includes a form where users can provide their information to register.
 
-# Project Title
-
-Brief description of your project.
 
 ## User Authentication
 
